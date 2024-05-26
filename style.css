@@ -1,0 +1,60 @@
+@charset "utf-8";
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+body{
+	color:white;
+	font-family:"Palatino Linotype";
+	backgroud-color:000000;
+	background-image:url(images/1360353.png);
+    background-size: cover;
+    background-position: center;
+	margin:0;
+}
+.wrapper {
+    max-width: 90%;
+    margin-left:5%;
+	margin-right:5%;
+	margin-top:15px
+}
+header {
+    color:white;
+    position: fixed;
+    width: 100%;
+    background:#00465D99;
+	backdrop-filter:blur(20px);
+    top: 0;
+    transition: all 500ms ease;
+}
+header.scrolled {
+    border-radius: 10px;
+    background: #00465D30;
+    backdrop-filter: blur(10px);
+    border: 1px solid #00465D;
+    transition: all 500ms ease;
+    width: 92%;
+    margin: 0 4%;
+    top: 20px;
+    box-shadow: 8px 12px 10px -8px #00465D;
+}
+.fill{
+	height:100px;
+}
+.cent{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.ha{
+	padding: 2px;
+    border-radius: 10px;
+    background:#0C55CE60;
+    backdrop-filter: blur(5px);
+    width: 90%;
+    margin: 5px auto 5px;
+    text-align: center;
+    border: 2px solid #00136F60;
+    box-shadow: 6px 8px 8px -6px #00136F;
+}
