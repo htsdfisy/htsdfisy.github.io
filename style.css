@@ -8,16 +8,16 @@ body{
 	color:white;
 	font-family:"Palatino Linotype";
 	backgroud-color:000000;
-	background-image:url(images/1360353.png);
     background-size: cover;
-    background-position: center;
+	background-position: center;
 	margin:0;
 }
 .wrapper {
     max-width: 90%;
     margin-left:5%;
 	margin-right:5%;
-	margin-top:15px
+	margin-top:10px;
+	margin-bottom:10px;
 }
 header {
     color:white;
@@ -30,7 +30,7 @@ header {
 }
 header.scrolled {
     border-radius: 10px;
-    background: #00465D30;
+    background: #00465D70;
     backdrop-filter: blur(10px);
     border: 1px solid #00465D;
     transition: all 500ms ease;
@@ -57,4 +57,26 @@ header.scrolled {
     text-align: center;
     border: 2px solid #00136F60;
     box-shadow: 6px 8px 8px -6px #00136F;
+}
+.himg{
+	padding: 2rem;
+    border-radius: 10px;
+    background:#0C55CE60;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid #00136F60;
+    box-shadow: 6px 8px 8px -6px #00136F;
+}
+.ch{
+	position:fixed;
+	top:20px;
+	right:50px;
+	width:50px;
+}
+.thing{
+	position:fixed;
+	top:0;
+	left:50px;
 }
