@@ -7,7 +7,7 @@
 body{
 	color:white;
 	font-family:"Palatino Linotype";
-	backgroud-color:000000;
+	background-color:000000;
     background-size: cover;
 	background-position: center;
 	margin:0;
@@ -26,6 +26,7 @@ header {
 	backdrop-filter:blur(20px);
     top: 0;
     transition: all 500ms ease;
+	z-index:999;
 }
 header.scrolled {
     border-radius: 10px;
@@ -37,6 +38,7 @@ header.scrolled {
     margin: 0 4%;
     top: 20px;
     box-shadow: 8px 12px 10px -8px #00465D;
+	z-index:999;
 }
 .fill{
 	height:100px;
@@ -48,7 +50,7 @@ header.scrolled {
 }
 ha{
 	display:block;
-	padding: 2px;
+	padding: 2px 20px;
     border-radius: 10px;
     background-color:#00126260;
     backdrop-filter: blur(5px);
@@ -60,7 +62,7 @@ ha{
 	top:0;
 }
 himg{
-	display:block;
+	display:inherit;
 	padding: 2rem;
     border-radius: 10px;
     background:#00126260;
@@ -70,9 +72,6 @@ himg{
     text-align: center;
     border: 2px solid #00305160;
     box-shadow: 6px 8px 8px -6px #001033;
-}
-h2{
-	
 }
 .ch{
 	position:fixed;
